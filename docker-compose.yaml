@@ -8,10 +8,10 @@ services:
     ports:
       - "5432:5432"
 
-  redis:
-    image: redis
 
-  # Enable when not using cli
+  # Enable when not using quirrel cli
+  # redis:
+  #   image: redis
   # quirrel:
   #   image: ghcr.io/quirrel-dev/quirrel:main
   #   environment:

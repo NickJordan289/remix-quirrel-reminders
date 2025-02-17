@@ -4,8 +4,16 @@
 
 ## Development
 
+Start postgres server and run drizzle-kit migrations:
+
+```shellscript
+docker compose up -d
+pnpm drizzle-kit migrate
+```
+
 Run the dev server along with Quirrel dev instance:
 
 ```shellscript
-npm run dev
+pnpm i
+pnpm run dev
 ```
