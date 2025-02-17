@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis
+
+  # Enable when not using cli
+  # quirrel:
+  #   image: ghcr.io/quirrel-dev/quirrel:main
+  #   environment:
+  #     REDIS_URL: redis://redis
+  #   ports:
+  #     - '9181:9181'
