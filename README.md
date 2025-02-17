@@ -1,6 +1,6 @@
-# Welcome to Remix!
+# Remix-quirrel-reminders
 
-- 📖 [Remix docs](https://remix.run/docs)
+![image](https://github.com/user-attachments/assets/f0dc6395-bc04-4e39-a92b-e3c0f6393f40)
 
 ## Development
 
